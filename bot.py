@@ -220,6 +220,7 @@ async def sets(ctx):
 
 def create_embed(lang):
 	embed = discord.Embed(title=lang.help_title, description=lang.help_description, colour=discord.Colour.red())
+	embed.add_field(name=lang.credits, value=lang.credits)
 	embed.add_field(name=lang.source, value=lang.github)
 	embed.add_field(name=lang.invite, value=lang.discord)
 	embed.add_field(name=lang.support, value=lang.server)

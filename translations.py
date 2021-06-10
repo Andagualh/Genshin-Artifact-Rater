@@ -182,10 +182,10 @@ class translation:
 		`-[user/server] preset delete <names>`
 		Delete presets.
 		'''
-
-		self.source = 'Source Code'
-		self.invite = 'Bot Invite'
-		self.support = 'Support'
+		self.credits = 'Thanks to shrubin for having his code Open Source!'
+		self.source = 'Source Code (Main Repository)'
+		self.invite = 'Bot Invite (Original bot)'
+		self.support = 'Support (For the original bot)'
 		self.github = f'[GitHub]({self.GITHUB_URL})'
 		self.discord = f'[Link]({self.BOT_URL})'
 		self.server = f'[Discord]({self.SERVER_URL})'
@@ -362,9 +362,10 @@ class es(translation):
 		Eliminar presets.
 		'''
 
-		self.source = 'Código fuente'
-		self.invite = 'Invitar al bot'
-		self.support = 'Support'
+		self.credits = '¡Muchas gracias a shrubin por haber hecho este bot en código abierto!'
+		self.source = 'Código fuente (Del repositorio original)'
+		self.invite = 'Invitar al bot (Bot original)'
+		self.support = 'Support (Para el bot original)'
 		self.github = f'[GitHub]({self.GITHUB_URL})'
 		self.discord = f'[Link]({self.BOT_URL})'
 		self.server = f'[Discord]({self.SERVER_URL})'
